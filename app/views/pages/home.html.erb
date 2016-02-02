@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $("#dropdownMenu2").hide();
+});
+$(document).ready(function() {
+    $("#dropdownMenu3").hide();
+});
+
+$(document).ready(function(){
+    $("#gd").click(function(){
+        $("#dropdownMenu2").toggle();
+        $("#dropdownMenu1").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#wd").click(function(){
+        $("#dropdownMenu3").toggle();
+        $("#dropdownMenu1").hide();
+    });
+});
+
+
+</script>
+</head>
+<body>
+
+
+
+    <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    All Categories
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li id="gd"><a href="#">Graphics Design</a></li>
+    <li id="wd"><a href="#">Website Development</a></li>
+  </ul>
+</div><br /><br /><br />
+
+    
+    <div class="container">
+    <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Graphics Designer Jobs
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Design a Business Card</a></li>
+    <li><a href="#">Design a Flyer</a></li>
+    <li><a href="#">Design a Post Card</a></li>
+    <li><a href="#">Design a Brochure</a></li>
+    <li><a href="#">Design a Banner</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="container">
+    <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Website Developer Jobs
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Design a Full Website</a></li>
+    <li><a href="#">Help me find the error</a></li>
+    <li><a href="#">Questions</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+</body>
+</html>
+

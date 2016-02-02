@@ -1,0 +1,27 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.dropdown {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.gddropdown {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.dropdown-menu {
+    /*top: 100%;
+    left: 0; */
+    display: none;
+    min-width: 160px;
+    list-style: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
